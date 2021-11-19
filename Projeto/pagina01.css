@@ -82,12 +82,25 @@ header .menu .ativo, header .menu a:hover{
 	background-position: center;
 	background-size: cover;
 }
+
 #a{
 	height: -80px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: column;
+
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+h1{
+	
+	color: white;
+	background-color: rgba(50, 50, 50, 0.6);
+	padding: 0px 10px;
 }
 
  #b {
@@ -168,6 +181,42 @@ header .menu .ativo, header .menu a:hover{
 
 
 
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font: Arial, Helvetica, sans-serif;	
+}
+
+.navbar {
+	padding-top: 0!important;
+	padding-bottom: 0!important;
+}
+
+.navbar-light .navbar-brand {
+    background-color: rgb(68, 48, 39);
+	padding: 15px;
+	border-radius: 30px;
+	color: orange;
+	box-shadow: -3px 4px 10px rgba(0, 0, 0, 0.295);
+}
+
+.navbar-light .navbar-brand:hover {
+	background-color: rgba(231, 154, 12, 0.911);
+	border-radius: 30px;
+	color: rgb(68, 48, 39);
+	transition: 0.4s;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: orange!important;
+	font-weight: bolder;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 166, 0, 0.76)!important;
+}
 
 
 

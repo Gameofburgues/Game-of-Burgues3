@@ -1,46 +1,52 @@
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Game of Burgues</title>
     <link rel="stylesheet" href="pagina01.css" />    
   </head>
 
 
-    <body style= "background-image:url(../Projeto/imagens/made.jpg);">
+   <body>
+  <header>
 
-    <header>
+    <h1> Bem-Vindos a Game of Burguers!</h1> 
+    <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+      <div class="container-fluid" style="background-color: rgba(255, 166, 0, 0); padding: 1%;">
+        <a class="navbar-brand" href="#" style="font-family: 'Arial Black';">Game of Burguers</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <nav class="menu">
-
-       <a href="" class="logo">Game of Burges</a>
-
-       <ul>
-          <li><a href="pagina02.html#receitas"> Receitas</a></li>
-          <li><a href="">Sobre</a></li>
-          <li><a href="">Contato</a></li>
-        </ul>
-      </nav><!-- menu -->
-
-      <section class="principal">
-
-      	<h2></h2>
-
-      	<div class="links">
-
-      		<a href=""> Sejam bem vindos </a>
-
-      	</div>	
-
-      </section>
-
-    </header>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="pagina01.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pagina02.html#receitas">Receitas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
     </section>
 
  </body>
+
 
 
 <hr> 
@@ -58,9 +64,9 @@
 
     <div class="links">
 
-      <a id= "b" href=""> Clique aqui</a>
+      <a id= "b"  href="pagina03.html"> Clique aqui</a>
 
-    </div>	
+    </div>  
 
   </section>
 
@@ -76,22 +82,39 @@
 
 </hr>
 
-<footer class="rodape">
- 
-  <nav>
-  
-  <ul>
-
-  <h3 id="abc"> Número: (21)8888-8888 </h3>
- 
-  <h3 id="abc"> Rede social: @Gameofburgues </h3>
- 
-
-  </ul>
- 
-  </nav>
- 
+  <footer>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <!-- <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div> -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./imagens/background1.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 style="background-color: rgb(68, 48, 39);
+            padding: 15px;
+            border-radius: 30px;
+            color: orange;
+            box-shadow: -3px 4px 10px rgba(0, 0, 0, 0.295);" id="contato">Contato:</h2>
+            <p>Web-Designer: Graziela Nascimento, Jacydabel Velanes e Felipe Glautier</p>
+            <p>Telefone: (+55) 21 2345-2765</p>
+            <p>Endereço: Rua Professor José de Souza Herdy, 1160 - Jardim Vinte e Cinco de Agosto, Duque de Caxias -  RJ</p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
-  
-</html>
 
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+    
+
+</body>
+
+</html>
